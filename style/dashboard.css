@@ -1,0 +1,72 @@
+:root {
+    --font: 'Poppins', sans-serif;
+    --tabel-font-color: #000000;
+    --tabel-background: #ffffff;
+}
+
+
+.statics {
+    color: #000000;
+    box-sizing: border-box;
+    width: 80%;
+    height: 25vh;
+    margin: 2rem 0rem 5rem 19rem;
+    padding: 1rem;
+    border-radius: 20px;
+    background: transparent;
+    position: fixed;
+    filter: drop-shadow(0px 5px 5px rgba(226, 236, 249, 0.50));
+}
+
+.info-boxes {
+    padding: 0em 0 0em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7rem;
+
+    .info-box {
+        background: #ffffff;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0rem;
+        border: 1px solid black;
+        border-radius: 20px;
+
+        .box-icon {
+            img {
+                display: block;
+                width: 48px;
+                height: 48px;
+
+                path,
+                circle {
+                    fill: green;
+                }
+            }
+        }
+
+        .box-content {
+            padding-left: 4rem;
+            white-space: nowrap;
+
+            .big {
+                display: block;
+                font-size: 2em;
+                line-height: 150%;
+                color: black;
+            }
+        }
+
+        &.active {
+            img {
+
+                circle,
+                path {
+                    fill: #000000;
+                }
+            }
+        }
+    }
+}

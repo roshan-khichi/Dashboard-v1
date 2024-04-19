@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/table.css">
+    <title>Users</title>
+</head>
+
+<body class="active">
+    <div class="background">
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+    </div>
+
+    <!-- sidebar -->
+    <nav>
+        <div class="sidebar-header">
+            <a href="index.html" class="logo-wrapper">
+                <img src="images/profile.jpg" alt="logo" class="logo">
+                <h2 class="hidden">LOGO</h2>
+            </a>
+            <button class="toggle-btn link">
+                <img src="images/arrow.svg" alt="expand">
+            </button>
+        </div>
+
+        <!-- <div class="sidebar-links">
+            <a href="index.html" class="link home">
+                <img src="images/home.svg" alt="home">
+                <span class="hidden">Home</span>
+            </a>
+        </div> -->
+
+        <div class="sidebar-links">
+            <a href="index.html" class="link dashboard">
+                <img src="images/dashboard.svg" alt="dashboard">
+                <span class="hidden">Dashboard</span>
+            </a>
+        </div>
+
+        <div class="sidebar-links">
+            <a href="users.html" class="link users active">
+                <img src="images/user.svg" alt="user">
+                <span class="hidden">Users</span>
+            </a>
+        </div>
+
+        <div class="sidebar-bottom">
+            <div class="sidebar-links">
+                <a href="#" class="link themes">
+                    <img src="images/dark theme.svg" alt="themes">
+                    <span class="hidden">Themes</span>
+                </a>
+            </div>
+
+            <div class="sidebar-links">
+                <a href="setting.html" class="link setting">
+                    <img src="images/setting.svg" alt="setting">
+                    <span class="hidden">Settings</span>
+                </a>
+            </div>
+
+
+            <div class="user-profile">
+
+                <div class="user-avatar">
+                    <img src="images/profile.jpg" alt="profile">
+                </div>
+
+                <div class="user-details hidden">
+                    <p class="username">rocky</p>
+                    <p class="user-email">rocky@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Users table -->
+    <div class="wrapper_inner table">
+        <h2></h2>
+        <div class="box">
+            <div class="head">Users
+                <input class="search" placeholder="search"></input>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Number</th>
+                        <th>Status</th>
+                        <th>Edit</th>
+
+                    </tr>
+                    <tr>
+                        <td>Mohit</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Sagar</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Mohit</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Sagar</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Mohit</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Sagar</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Mohit</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Sagar</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Mohit</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Sagar</td>
+                        <td>abcd@example</td>
+                        <td>9638527410</td>
+                        <td>active</td>
+                        <td class="edit-btn"><img src="images/edit.svg" alt=""></td>
+                    </tr>
+                </thead>
+                <tbody id="listado-clientes"></tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

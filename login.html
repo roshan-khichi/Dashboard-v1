@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/login_register.css">
+    <title>Dashboard</title>
+</head>
+
+<body class="active">
+    <div class="background">
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="login-form inactive">
+            <div class="container">
+                <div class="form" action="">
+                    <p class="title">Login Form</p>
+                    <input placeholder="Email" class="username input" id="login-email" type="email">
+                    <input placeholder="Password" class="password input" id="login-password" type="password">
+                    <span class="switch-login">Create an new account?
+                        <button id="active-register" href=""> Click here
+                        </button>
+                    </span>
+                    <button class="btn" id="login-btn">Login</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="register-form active">
+            <div class="container">
+                <div class="form" action="">
+                    <p class="title">Register Form</p>
+                    <input placeholder="Name" class="username input" id="register-name" type="text">
+                    <input placeholder="Email" class="username input" id="register-email" type="email">
+                    <input placeholder="Password" class="password input" id="register-password" type="password">
+                    <span class="switch-register">Already Have an account?
+                        <button id="active-login" href="">Click here
+                        </button>
+                    </span>
+                    <button class="btn" id="register-btn">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="script/login_register.js"></script>
+    <!-- <script src="script/script.js"></script> -->
+</body>
+
+</html>

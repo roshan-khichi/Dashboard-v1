@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+::selection {
+    background-color: var(--background-color);
+}
+
+.login-form {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form .container .form {
+    height: 450px;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 400px;
+    height: 400px;
+    background-color: #00000090;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.title {
+    color: var(--background-color);
+    margin: 1.75rem 0;
+    font-size: 2rem;
+}
+
+.input {
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+    width: 20rem;
+    font-size: .75rem;
+    background-color: inherit;
+    color: var(--background-color);
+    border: none;
+    outline: none;
+}
+
+.username {
+    border-bottom: 1px solid var(--background-color);
+    transition: all 400ms;
+}
+
+.username:hover {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.password {
+    border-bottom: 1px solid var(--background-color);
+    transition: all 400ms;
+}
+
+.password:hover {
+    background-color: var(--background-color);
+    border: none;
+    color: var(--font-color);
+    border-radius: 0.5rem;
+}
+
+.btn {
+    height: 3rem;
+    width: 20rem;
+    margin-top: 2.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    border: 1px;
+    padding: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: all 300ms;
+    box-shadow: none;
+}
+
+.btn:hover {
+    background-color: white;
+
+    box-shadow: 0 0 3px #fff, 0 0 5px #fff;
+}
+
+.switch-login {
+    color: #fff;
+    font-size: 13px;
+    margin: 1rem 5rem 0rem 0rem;
+
+    button {
+        color: rgb(135, 242, 250);
+    }
+}
+
+.switch-register {
+    color: #fff;
+    font-size: 13px;
+    margin: 1rem 5rem 0rem 0rem;
+
+    button {
+        color: rgb(135, 242, 250);
+    }
+}
+
+.active {
+    display: flex;
+}
+
+.inactive {
+    display: none;
+}
