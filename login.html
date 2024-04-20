@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/login_register.css">
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="style/login.css">
+    <title>Login</title>
 </head>
 
 <body class="active">
@@ -30,11 +30,11 @@
 
     <div class="wrapper">
 
-        <div class="login-form inactive">
+        <div class="login-form active">
             <div class="container">
                 <div class="form" action="">
                     <p class="title">Login Form</p>
-                    <input placeholder="Email" class="username input" id="login-email" type="email">
+                    <input placeholder="Email" class="email input" id="login-email" type="email">
                     <input placeholder="Password" class="password input" id="login-password" type="password">
                     <span class="switch-login">Create an new account?
                         <button id="active-register" href=""> Click here
@@ -46,12 +46,12 @@
         </div>
 
 
-        <div class="register-form active">
+        <div class="register-form inactive">
             <div class="container">
                 <div class="form" action="">
                     <p class="title">Register Form</p>
-                    <input placeholder="Name" class="username input" id="register-name" type="text">
-                    <input placeholder="Email" class="username input" id="register-email" type="email">
+                    <input placeholder="Name" class="email input" id="register-name" type="text">
+                    <input placeholder="Email" class="email input" id="register-email" type="email">
                     <input placeholder="Password" class="password input" id="register-password" type="password">
                     <span class="switch-register">Already Have an account?
                         <button id="active-login" href="">Click here
@@ -61,10 +61,23 @@
                 </div>
             </div>
         </div>
+
+
+        <form class="otp-form inactive">
+            <div class="otp-title ">OTP</div>
+            <div class="otp-title ">
+                Verification
+                Code
+            </div>
+            <p class="message">We have sent a verification code to your Email-ID</p>
+            <div class="inputs"> <input id="input1" type="text" maxlength="1"> <input id="input2" type="text"
+                    maxlength="1">
+                <input id="input3" type="text" maxlength="1"> <input id="input4" type="text" maxlength="1">
+            </div>
+            <button class="action" id="otp-verify">Verify me</button>
+        </form>
     </div>
-
-
-    <script type="module" src="script/login_register.js"></script>
+    <script type="module" src="script/login.js"></script>
     <!-- <script src="script/script.js"></script> -->
 </body>
 

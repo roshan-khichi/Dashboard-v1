@@ -4,9 +4,14 @@
     --tabel-background: #ffffff;
 }
 
+.wrapper_inner {
+    position: fixed;
+    width: 80%;
+    margin: 4.5rem 2rem 0rem 18rem;
+}
+
 .box {
-    margin: 4rem 2rem 0rem 17rem;
-    padding: 4rem 3rem;
+    padding: 2rem 3rem;
     border-radius: 20px;
     background: var(--tabel-background);
     filter: drop-shadow(0px 5px 5px rgba(226, 236, 249, 0.50));
@@ -57,9 +62,15 @@ table tr:last-child {
 }
 
 .head {
-    margin: -1rem 0rem 0rem .5rem;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
+    .heading {
+        border-bottom: 1px solid var(--tabel-font-color);
+    }
 }
 
 /* 
